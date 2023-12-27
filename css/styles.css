@@ -1,0 +1,87 @@
+/* body{
+            overflow: hidden;
+        } */
+        /* Loại bỏ dấu chấm của ul li */
+        ul {
+            list-style-type: none;
+        }
+
+        ul li {
+            padding-top: 25px;
+            padding-left: 10px;
+        }
+
+        /* Thiết lập màu chữ về bình thường cho ul li */
+        ul li a {
+            color: black;
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            color: #a50064;
+            background: #fdf8ee;
+            text-decoration: none;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .active-menu {
+            color: #a50064;
+            background: #fdf8ee;
+            text-decoration: none;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .drop-menu {
+            color: #a50064;
+        }
+
+        .title {
+            padding-top: 30px;
+        }
+
+        /* Thêm độ bóng khối chỉ ở phía bên phải cho main-sidebar */
+        .main-sidebar {
+            background-color: #fff;
+            /* Màu nền của sidebar */
+            box-shadow: 10px 0 10px -5px rgba(0, 0, 0, 0.1);
+            /* Độ bóng khối chỉ ở phía bên phải */
+        }
+
+        /* Chỉnh lại các margin và padding */
+        .main-menu {
+            margin-top: 20px;
+        }
+
+        /* Thêm hiệu ứng transition cho box-shadow */
+        .main-sidebar:hover {
+            box-shadow: 10px 0 20px -5px rgba(0, 0, 0, 0.2);
+            /* Độ bóng khối khi hover */
+            transition: box-shadow 0.3s ease-in-out;
+            /* Hiệu ứng transition */
+        }
+
+        .parent-li {
+            transition: all 5s ease-in-out;
+            cursor: pointer;
+            /* Thêm thuộc tính cursor để biểu thị là nút có thể click */
+        }
+
+        .btn-toggle {
+            cursor: pointer;
+        }
+
+        .signout a {
+            color: red !important;
+        }
+
+        .rounded-image {
+            border-radius: 50%;
+            /* Đảm bảo kích thước của ảnh không vượt quá kích thước của khung hình tròn */
+            max-width: 30px;
+            max-height: 30px;
+            /* Tùy chọn: canh giữa hình ảnh trong khung hình tròn */
+            object-fit: cover;
+            background: white;
+        }

@@ -1,0 +1,138 @@
+body{
+    /* background: rgb(255,255,255); */
+background: linear-gradient(14deg, rgba(255,255,255,1) 0%, rgba(251,231,243,1) 50%, rgba(255,255,255,1) 100%);
+}.col-lg-6 {
+    box-shadow: 0 -10px 50px rgba(0, 0, 0, 0.1); /* Độ bóng khối */
+    padding: 20px; /* Khoảng cách bên trong độ bóng khối */
+    border-radius: 8px; /* Độ cong góc của độ bóng khối */
+    margin-top: 6%;
+}
+.logopng{
+    background-color: #a50064;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin-top: -8%;
+    margin-left: 44%;
+    box-shadow: 0 30px 22px rgba(0, 0, 0, 0.1); /* Độ bóng khối */
+}
+.logopng img{
+    height: 70px;
+    width: 60px;
+    padding-left: 28%;
+    padding-top: 20px;
+
+}
+form {
+    max-width: 100%; /* Đảm bảo form không vượt quá kích thước của phần tử cha */
+}
+.title{
+    text-align: center;
+}
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}
+.btn-login{
+    background-color: #a50064;
+    color: white;
+}
+.col-lg-3 p , .col-lg-6 form p ,.col-lg-3 p a {
+    color: #ccc;
+    text-decoration: none;
+}
+ .col-lg-6 form p a{
+    color: #a50064;
+    text-decoration: none;
+}
+.form-group{
+    text-align: center;
+}
+.col-lg-3 p a {
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    padding: 10px 30px 10px 30px;
+}
+.e{
+    margin-right: 44%;
+}
+.pwd{
+    margin-right: 40%;
+}
+.ht{
+    margin-right: 42%;
+}
+.or-divider {
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.or-divider::before, .or-divider::after {
+    content: "";
+    display: inline-block;
+    width: 40%;
+    height: 1px;
+    background-color: #ccc;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.or-divider::before {
+    right: 8%;
+}
+
+.or-divider::after {
+    left: 8%;
+}
+.form-group img{
+    height: 44px;
+    width: 44px;
+    margin-right: 20px;
+    margin-left: 20px;
+    box-shadow: 0 8px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+.col-lg-3 img{
+    margin-left: 21%;
+}
+.col-lg-3 p{
+    margin-left: 11%;
+}
+.password-container {
+    position: relative;
+    width: 100%;
+}
+
+.toggle-password {
+    cursor: pointer;
+    position: absolute;
+    right: 27%;
+    top: 43%;
+    transform: translateY(-50%);
+}
+.check{
+    text-align: left;
+}
+.check input{
+margin-left: 1%;
+}
+.check p{
+    position: absolute;
+    top: 56%;
+    left: 29%;
+    color: black !important;
+}
+.check p a{
+    text-decoration: underline !important;
+}
