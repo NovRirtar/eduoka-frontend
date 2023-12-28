@@ -1,14 +1,27 @@
 //banner
- // Sử dụng tên hàm cụ thể hơn
- function autoSlide() {
-    var slides = document.getElementsByClassName("slide");
-    var currentSlide = slides[slides.length - 1];
-    var nextSlide = slides[0];
+$(document).ready(function () {
+    var currentIndex = 0;
+    var images = $(".banner img");
+    var totalImages = images.length;
 
-    currentSlide.style.display = "none";
-    nextSlide.style.display = "block";
-}
+    function showImage(index) {
+      images.hide();
+      images.eq(index).fadeIn();
+    }
 
-// Thực hiện autoSlide sau mỗi khoảng thời gian
-setInterval(autoSlide, 2000);
-  
+    function nextImage() {
+      currentIndex = (currentIndex + 1) % totalImages;
+      showImage(currentIndex);
+    }
+
+    // Hiển thị ảnh đầu tiên khi trang web được tải
+    showImage(currentIndex);
+
+    // Tự động chuyển ảnh sau mỗi 5 giây (hoặc thời gian mong muốn)
+    setInterval(nextImage, 5000);
+  });
+
+  //select
+  $(document).ready(function () {
+    $("#select2").select2();
+  });

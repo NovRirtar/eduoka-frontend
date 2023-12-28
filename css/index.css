@@ -1,12 +1,16 @@
-.active, .login {
+.active,
+.login {
     text-decoration: none;
     color: black;
 }
-.active:hover ,.login:hover{
+
+.active:hover,
+.login:hover {
     color: #a50064;
     text-decoration: none;
 }
-.register{
+
+.register {
     text-decoration: none;
     color: white;
     background: #a50064;
@@ -15,34 +19,542 @@
     padding-left: 30px;
     padding-right: 30px;
 }
-.register:hover{
+
+.register:hover {
     color: black;
     text-decoration: none;
 }
+
 /*banner*/
+.banner img {
+    width: 1536px;
+    height: 550px;
+}
 
-.banner {
-    width: 100%;
-    height: 200px;
-  }
-  
-  .slides {
-    width: 100%;
-    height: 200px;
-    overflow: hidden;
-  }
-  
-  .slide {
-    width: 100%;
-    height: 200px;
-    float: left;
-  }
-  
-  .img {
-    width: 100%;
-    height: 100%;
-  }
-  
-  
-  
+.select-css {
+    background: white;
+    border: 1px #fff solid;
+    border-radius: 5px;
+    width: 55%;
+    background: white;
+    border: 1px #fff solid;
+    border-radius: 8px;
+    width: 55%;
+    position: absolute;
+    top: 40%;
+    right: 40%;
+    padding-top: 20px;
+}
 
+.select-css .col-md-3 .input-group-append {
+    position: absolute;
+    bottom: 2%;
+    right: 40%;
+    background: #a50064;
+    border: 3px #a50064 solid;
+    border-radius: 4px;
+    width: 55px;
+    height: 55px;
+}
+
+.select-css .col-md-3 .input-group-append i {
+    position: absolute;
+    bottom: 33%;
+    right: 36%;
+}
+
+select:focus option:checked {
+    background: #ffffff;
+    /* Màu nền khi được chọn */
+    color: #a50064;
+    /* Màu chữ khi được chọn */
+}
+
+select option:checked {
+    background: #e2e2e2;
+    /* Màu nền sau khi chọn */
+    color: #a50064;
+    /* Màu chữ sau khi chọn */
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered .select3-container .select3-selection--single .select3-selection__rendered {
+    color: #000;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow .select3-container--default .select3-selection--single .select3-selection__arrow {
+    top: 5px;
+}
+
+.banner-title {
+    background: #a50064;
+    text-align: center;
+    position: absolute;
+    margin-left: 165px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border: 1px #a50064 solid;
+    border-radius: 20px;
+    top: 80%;
+    margin-right: 165px;
+    margin-bottom: 34px;
+}
+
+.banner-title .form-group {
+    padding-right: 58px;
+    padding-top: 35px;
+}
+
+.banner-title .form-group h4 {
+    color: #fcbf4c;
+}
+
+.banner-title .form-group p {
+    color: white;
+}
+
+.banner-title .form-group img {
+    border-radius: 50%;
+    /* Đảm bảo kích thước của ảnh không vượt quá kích thước của khung hình tròn */
+    max-width: 40px;
+    max-height: 40px;
+    /* Tùy chọn: canh giữa hình ảnh trong khung hình tròn */
+    object-fit: cover;
+    background: white;
+    padding: 7px;
+}
+
+.bravo_footer {
+    background: #feeddd;
+}
+
+.container .row .col-md-12 {
+    display: flex;
+    border-top: 1px #ccc solid;
+    padding-bottom: 40px;
+}
+
+.container .row .col-md-12 .f-visa {
+    text-align: right;
+}
+
+.container .row .col-md-12 .col-md-6 {
+    padding-top: 40px;
+}
+
+.row .col-lg-3 .nav-footer .title {
+    color: #a50064;
+    padding-bottom: 40px;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.contact b a {
+    color: #a50064;
+}
+
+.contact b a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-footer .context-eduoka {
+    border-left: 3px #a50064 solid;
+    padding-left: 15px;
+}
+
+.context-eduoka .contact .c-title {
+    padding-bottom: 15px;
+}
+
+.row .col-lg-3 .nav-footer .context ul li {
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+.row .col-lg-3 .nav-footer .context ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.row .col-lg-3 .nav-footer .context ul li a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.r-1777fci {
+    display: inline-flex;
+}
+
+.contact-1 {
+    border-left: #a50064 3px solid;
+    padding-left: 30px;
+}
+
+.contact-1 .c-title {
+    padding-bottom: 10px;
+}
+
+.r-1awozwy {
+    margin: 10px;
+    padding-left: 0px;
+}
+
+.contact-2 {
+    border-left: #a50064 3px solid;
+    padding-left: 30px;
+}
+
+.contact-2 .c-title {
+    padding-bottom: 10px;
+}
+
+.contact-2 .sub a {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: #000;
+}
+
+.contact-3 {
+    border-left: #a50064 3px solid;
+    padding-left: 30px;
+}
+
+.edu .col-md-2 img {
+    height: 80px;
+    width: 80px;
+}
+
+.btn {
+    display: flow;
+}
+
+.btn .title img {
+    height: 70px;
+    width: 70px;
+    display: inline-flex;
+}
+
+.edu .btn .title {
+    display: inline-flex;
+    /* position: absolute; */
+    top: 250%;
+    right: 35%;
+}
+
+.main {
+    padding-top: 10%;
+}
+
+.all {
+    text-align: end;
+    text-decoration: none;
+    color: #a50064;
+}
+
+.all a {
+    text-align: end;
+    text-decoration: none;
+    color: #a50064;
+}
+
+.all a:hover {
+    text-align: end;
+    text-decoration: none;
+    color: #a50064;
+}
+
+.btn-edu button {
+    margin-right: 10px;
+    margin-left: 10px;
+    background: #fff;
+    color: black;
+}
+
+.btn-edu button:hover {
+    margin-right: 10px;
+    margin-left: 10px;
+    background: #a50064;
+    color: white;
+    border: 2px #a50064 solid;
+    border-radius: 5px;
+}
+
+.btn-edu button:checked {
+    margin-right: 10px;
+    margin-left: 10px;
+    background: #a50064;
+    color: white;
+    border: 2px #a50064 solid;
+    border-radius: 5px;
+}
+
+.thumb-image a img {
+    height: 250px;
+    width: 340px;
+}
+
+.featured {
+    margin-right: 56%;
+    top: 1%;
+    position: absolute;
+    right: 15%;
+    color: white;
+    background: #a50064;
+    padding: 2px;
+    border: 1px #a50064 solid;
+    border-radius: 5px;
+}
+
+.service-wishlist {
+    top: 1%;
+    position: absolute;
+    right: 15%;
+    color: white;
+    padding: 2px;
+}
+
+.item-title {
+    text-align: left;
+    margin-left: 40px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.day {
+    text-align: left;
+    margin-left: 40px;
+    color: #979494;
+}
+
+.prefix {
+    text-align: left;
+    margin-left: 40px;
+    color: #979494;
+}
+
+.prefix span {
+    padding-right: 10px;
+}
+
+.price span {
+    margin-right: 45%;
+    color: #ff7325;
+    font-weight: bold;
+}
+
+.price button {
+    background: #a50064;
+    color: white;
+    border: 1px #a50064 solid;
+    border-radius: 7px;
+}
+
+.stdy h3 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.btn-stdy {
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.btn-stdy button {
+    margin-right: 10px;
+    margin-left: 10px;
+    background: #fff;
+    color: black;
+}
+
+.btn-stdy button:hover {
+    margin-right: 10px;
+    margin-left: 10px;
+    background: #a50064;
+    color: white;
+    border: 2px #a50064 solid;
+    border-radius: 5px;
+}
+
+.stdy-css {
+    margin-left: 3%;
+}
+
+.item-stdy {
+    text-align: left;
+    margin-left: 0px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.day-stdy {
+    text-align: left;
+    margin-left: 0px;
+    color: #979494;
+}
+
+.featured-stdy {
+    margin-right: 56%;
+    top: 3%;
+    position: absolute;
+    right: 24%;
+    color: white;
+    background: #a50064;
+    padding: 2px;
+    border: 1px #a50064 solid;
+    border-radius: 5px;
+}
+
+.lorem {
+    background: #feeddd;
+    height: 250px;
+    width: 340px;
+}
+
+.price-stdy{
+    padding-top: 12px;
+}
+.price-stdy img {
+    border-radius: 50%;
+    /* Đảm bảo kích thước của ảnh không vượt quá kích thước của khung hình tròn */
+    max-width: 30px;
+    max-height: 30px;
+    /* Tùy chọn: canh giữa hình ảnh trong khung hình tròn */
+    object-fit: cover;
+    background: white;
+}
+.price-stdy button{
+    margin-left: 42%;
+    background: #a50064;
+    color: white;
+    border: 1px #a50064 solid;
+    border-radius: 7px;
+}
+.img1{
+    position: absolute;
+    left: 30px;
+    bottom: 14px;
+}
+.img2{
+    position: absolute;
+    left: 45px;
+    bottom: 12px;
+}
+.banner-content img{
+    height: 525px;
+    width: 1400px;
+}
+.teacher h3{
+    text-align: center;
+}
+.teacher-css{
+    margin-left: 3%;
+}
+.lorem-teacher{
+    height: 190px;
+    width: 340px;
+}
+.featured-teacher{
+    margin-right: 55%;
+    top: 3%;
+    position: absolute;
+    right: 24%;
+    color: black;
+    background: #ffff;
+    padding: 2px;
+    border: 1px #ffff solid;
+    border-radius: 5px;
+}
+.featured-teacher2{
+    margin-right: 40%;
+    top: 3%;
+    position: absolute;
+    right: 24%;
+    color: orange;
+    background: #ffff;
+    padding: 2px;
+    border: 1px #ffff solid;
+    border-radius: 5px;
+}
+.teacher-edus{
+    background: #a50064;
+    text-align: center;
+    border: 2px #a50064 solid;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-right: 60px;
+    position: absolute;
+    top: 47%;
+    right: 32%;
+}
+.item-teacher {
+    text-align: left;
+    margin-left: 0px;
+    font-size: 23px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.day-teacher {
+    color: #979494;
+    text-align: left;
+}
+.prefix-teacher {
+    text-align: left;
+    color: #979494;
+}
+.review h3{
+    text-align: center;
+}
+.review-title{
+    text-align: center;
+    color: #979494;
+    padding-bottom: 20px;
+}
+.lorem-review{
+background: #feeddd;
+height: 303px;
+width: 340px;
+border: 2px #feeddd solid;
+border-radius: 8px;
+}
+.item-review {
+    text-align: left;
+    margin-left: 0px;
+    font-size: 23px;
+    font-weight: bold;
+    color: #a50064;
+}
+.item-review2 {
+    text-align: left;
+    margin-left: 0px;
+    font-size: 23px;
+    font-weight: bold;
+    color: black;
+}
+.price-review{
+    padding-top: 12px;
+}
+.price-review img {
+    border-radius: 50%;
+    /* Đảm bảo kích thước của ảnh không vượt quá kích thước của khung hình tròn */
+    max-width: 34px;
+    max-height: 34px;
+    /* Tùy chọn: canh giữa hình ảnh trong khung hình tròn */
+    object-fit: cover;
+    background: white;
+}
+
+.price-review h4 {
+    position: absolute;
+    right: 50%;
+    bottom: 4%;
+    font-weight: bold;
+}
+.price-review p {
+    color: #979494;
+    position: absolute;
+    right: 35%;
+    bottom: -7%;
+}
