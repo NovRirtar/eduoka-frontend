@@ -30,6 +30,58 @@
     width: 1518px;
     height: 550px;
 }
+@media screen and (min-width: 1700px) {
+    .banner img {
+        width: 1688px;
+    }
+    .banner-content img {
+        height: 740px !important;
+        width: 1688px !important;
+    }
+    .banner-title {
+        margin-left: 338px !important;
+        top: 62% !important;
+    }
+}
+@media screen and (min-width: 1900px) {
+    .banner img {
+        width: 1899px;
+    }
+    .banner-content img {
+        height: 765px !important;
+        width: 1899px !important;
+    }
+    .banner-title {
+        margin-left: 444px !important;
+        top: 55% !important;
+    }
+}
+@media screen and (min-width: 2000px) {
+    .banner img {
+        width: 2026px;
+    }
+    .banner-content img {
+        height: 793px !important;
+        width: 2026px !important;
+    }
+    .banner-title {
+        margin-left: 507px !important;
+        top: 52% !important;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .banner img {
+        width: 1349%;
+    }
+    .banner-content img {
+        height: 635px !important;
+        width: 1349px !important;
+    }
+    .banner-title {
+        margin-left: 172px !important;
+        top: 80% !important;
+    }
+}
 
 .select-css {
     background: white;
@@ -249,6 +301,7 @@ select option:checked {
     text-align: end;
     text-decoration: none;
     color: #a50064;
+    padding-bottom: 4%;
 }
 
 .all a {
@@ -312,21 +365,30 @@ select option:checked {
     color: white;
     padding: 2px;
 }
+.item-title-css{
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+    border: 2px #ffff solid;
+    border-radius: 12px;
+    padding-bottom: 10px;
+}
 
 .item-title {
     text-align: left;
     font-size: 23px;
     font-weight: bold;
+    margin-left: 10px;
 }
 
 .day {
     text-align: left;
     color: #979494;
+    margin-left: 10px;
 }
 
 .prefix {
     text-align: left;
     color: #979494;
+    margin-left: 10px;
 }
 
 .prefix span {
@@ -334,7 +396,7 @@ select option:checked {
 }
 
 .price span {
-    margin-right: 53%;
+    margin-right: 47%;
     color: #ff7325;
     font-weight: bold;
 }
@@ -350,7 +412,9 @@ select option:checked {
     text-align: center;
     padding-top: 50px;
 }
-
+.stdy-css{
+    padding-bottom: 4%
+}
 .btn-stdy {
     text-align: center;
     padding-top: 50px;
@@ -380,12 +444,14 @@ select option:checked {
     margin-left: 0px;
     font-size: 23px;
     font-weight: bold;
+    margin-left: 10px;
 }
 
 .day-stdy {
     text-align: left;
     margin-left: 0px;
     color: #979494;
+    margin-left: 10px;
 }
 
 .featured-stdy {
@@ -417,6 +483,7 @@ select option:checked {
     /* Tùy chọn: canh giữa hình ảnh trong khung hình tròn */
     object-fit: cover;
     background: white;
+    margin-left: 10px;
 }
 .price-stdy button{
     margin-left: 42%;
@@ -436,7 +503,7 @@ select option:checked {
     bottom: 12px;
 }
 .banner-content img{
-    height: 525px;
+    height: 570px;
     width: 1518px;
 }
 .teacher h3{
@@ -446,6 +513,9 @@ select option:checked {
 .lorem-teacher{
     height: 190px;
     width: 340px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+    border: 2px #ffff solid;
+    border-radius: 12px;
 }
 .featured-teacher{
     margin-right: 55%;
@@ -488,22 +558,27 @@ select option:checked {
     font-size: 23px;
     font-weight: bold;
     padding-top: 20px;
+    margin-left: 10px;
 }
 .day-teacher {
     color: #979494;
     text-align: left;
+    margin-left: 10px;
 }
 .prefix-teacher {
     text-align: left;
     color: #979494;
+    margin-left: 10px;
 }
 .review h3{
     text-align: center;
+    padding-bottom: 20px;
+    padding-top: 5%;
 }
 .review-title{
     text-align: center;
     color: #979494;
-    padding-bottom: 20px;
+    padding-bottom: 4%;
 }
 .lorem-review{
 background: #feeddd;
@@ -518,13 +593,15 @@ border-radius: 8px;
     font-size: 23px;
     font-weight: bold;
     color: #a50064;
+    margin-left: 10px;
 }
 .item-review2 {
     text-align: left;
     margin-left: 0px;
     font-size: 23px;
     font-weight: bold;
-    color: black;
+    color: black;   
+     margin-left: 10px;
 }
 .price-review{
     padding-top: 12px;
@@ -537,6 +614,7 @@ border-radius: 8px;
     /* Tùy chọn: canh giữa hình ảnh trong khung hình tròn */
     object-fit: cover;
     background: white;
+    margin-left: 10px;
 }
 
 .price-review h4 {
@@ -557,11 +635,8 @@ border-radius: 8px;
     border-radius: 5px;
     padding: 10px;
 }
-/* footer{
-    width: 1348px;
-} */
 
-/* .slider-container {
+ .slider-container {
     display: flex;
     overflow: hidden;
     width: 100%;
@@ -571,8 +646,34 @@ border-radius: 8px;
     display: inline-flex;
     flex: 0 0 33.333333%;
     box-sizing: border-box;
+    max-width: none;
   }
 
   .hide {
     display: none;
-  } */
+  }
+/* Thêm CSS cho dấu chấm và chỉ số */
+.slider-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #bbb;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dot.active {
+    background-color: #a50064;
+    width: 35px;
+    height: 12px;
+    border-radius: 0;
+    border: 1px #a50064 solid;
+  }
+  
